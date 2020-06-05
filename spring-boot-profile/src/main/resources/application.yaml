@@ -1,0 +1,6 @@
+spring:
+  profiles:
+    active: uat
+  jackson:
+    date-format: yyyy-MM-dd HH:mm:ss
+    time-zone: Asia/Chongqing
