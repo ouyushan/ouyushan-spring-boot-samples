@@ -1,0 +1,26 @@
+spring:
+  influx:
+    url: http://140.143.56.153:8086
+    user: root
+    password: ouyushan
+    database: test
+    retention_policy: default
+    retention_policy_time: 30d
+
+
+management:
+  metrics:
+    export:
+      influx:
+        enabled: true
+        db: ouyushan
+        uri: http://140.143.56.153:8086
+        user: root
+        password: ouyushan
+        connect-timeout: 1s
+        read-timeout: 10s
+        auto-create-db: true
+        step: 1m
+        consistency: one
+        compressed: true
+        batch-size: 10000
