@@ -1,0 +1,9 @@
+spring:
+  profiles:
+    active: dat
+  jackson:
+    date-format: yyyy-MM-dd HH:mm:ss
+    time-zone: Asia/Chongqing
+
+logging:
+  config: classpath:logback-spring.xml
