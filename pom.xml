@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-parent</artifactId>
+        <version>2.3.0.RELEASE</version>
+        <relativePath/> <!-- lookup parent from repository -->
+    </parent>
+    <packaging>pom</packaging>
+    <groupId>org.ouyushan</groupId>
+    <artifactId>ouyushan-spring-boot-samples</artifactId>
+    <version>0.0.1-SNAPSHOT</version>
+    <name>ouyushan-spring-boot-samples</name>
+    <description>arent project for Spring Boot</description>
+
+    <properties>
+        <!-- environment setting -->
+        <java.version>1.8</java.version>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+        <maven.test.skip>true</maven.test.skip>
+    </properties>
+
+    <modules>
+    	<!-- <module>spring-boot-application-runner</module> -->
+        <module>spring-boot-begin-hello</module>
+        <module>spring-boot-banner</module>
+        <module>spring-boot-configuration-properties</module>
+        <module>spring-boot-configuration-yaml</module>
+        <module>spring-boot-profile</module>
+        <module>spring-boot-custom-servlet</module>
+        <module>spring-boot-log4j2</module>
+        <module>spring-boot-logback</module>
+        <module>spring-boot-web-thymeleaf</module>
+        <module>spring-boot-web-freemarker</module>
+        <module>spring-boot-web-webjars</module>
+        <module>spring-boot-web-upload</module>
+        <module>spring-boot-web-cors</module>
+        <module>spring-boot-error-controller</module>
+        <module>spring-boot-error-page</module>
+        <module>spring-boot-error-exception</module>
+        <module>spring-boot-data-crudrepository</module>
+        <module>spring-boot-data-jparepository</module>
+        <module>spring-boot-data-mybatis</module>
+        <module>spring-boot-data-cache</module>
+        <module>spring-boot-data-redis-jedis</module>
+        <module>spring-boot-data-redis-lettuce</module>
+        <module>spring-boot-data-mongodb</module>
+        <module>spring-boot-data-influxdb</module>
+        <module>spring-boot-security-oauth2</module>
+        <module>spring-boot-mq-activemq</module>
+        <module>spring-boot-mq-rabbitmq</module>
+    </modules>
+
+
+</project>
