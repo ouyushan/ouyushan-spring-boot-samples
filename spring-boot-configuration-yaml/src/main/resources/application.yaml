@@ -1,0 +1,13 @@
+ouyushan:
+  secret: ${random.value}
+  number: ${random.int}
+  name: ouyushan.org
+  desc: ${ouyushan.name} is a domain name
+
+server:
+  port: 7070
+
+spring:
+  jackson:
+    date-format: yyyy-MM-dd HH:mm:ss
+    time-zone: Asia/Chongqing
