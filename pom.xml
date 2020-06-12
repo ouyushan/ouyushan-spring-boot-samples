@@ -52,6 +52,13 @@
         <module>spring-boot-security-oauth2</module>
         <module>spring-boot-mq-activemq</module>
         <module>spring-boot-mq-rabbitmq</module>
+        <module>spring-boot-mq-rocketmq</module>
+        <module>spring-boot-mq-kafka</module>
+        <module>spring-boot-io-email</module>
+        <module>spring-boot-jta-atomikos</module>
+        <module>spring-boot-jta-bitronix</module>
+        <module>spring-boot-session</module>
+        <module>spring-boot-scheduler-quartz</module>
     </modules>
 
 
