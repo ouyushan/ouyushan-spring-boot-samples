@@ -13,7 +13,7 @@
     <artifactId>ouyushan-spring-boot-samples</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>ouyushan-spring-boot-samples</name>
-    <description>arent project for Spring Boot</description>
+    <description>parent project for Spring Boot</description>
 
     <properties>
         <!-- environment setting -->
