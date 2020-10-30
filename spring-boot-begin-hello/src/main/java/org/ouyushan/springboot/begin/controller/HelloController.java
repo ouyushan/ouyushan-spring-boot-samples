@@ -5,9 +5,10 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 /**
- * @Description
- * @Author ouyushan <ouyushan@hotmail.com>
- * @Date 2020/4/27
+ * @Description hello spring boot
+ * @Author ouyushan
+ * @Email ouyushan@hotmail.com
+ * @Date 2020/4/27 9:54
  */
 
 @RestController

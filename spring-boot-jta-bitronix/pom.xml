@@ -8,9 +8,9 @@
         <version>0.0.1-SNAPSHOT</version>
     </parent>
     <groupId>org.ouyushan</groupId>
-    <artifactId>spring-boot-jpa-bitronix</artifactId>
+    <artifactId>spring-boot-jta-bitronix</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>spring-boot-jpa-bitronix</name>
+    <name>spring-boot-jta-bitronix</name>
     <description>Jpa Bitronix project for Spring Boot</description>
 
     <properties>
