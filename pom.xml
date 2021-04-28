@@ -24,7 +24,6 @@
     </properties>
 
     <modules>
-    	<!-- <module>spring-boot-application-runner</module> -->
         <module>spring-boot-begin-hello</module>
         <module>spring-boot-banner</module>
         <module>spring-boot-configuration-properties</module>
@@ -60,6 +59,8 @@
         <module>spring-boot-session</module>
         <module>spring-boot-scheduler-quartz</module>
         <module>spring-boot-swagger</module>
+        <module>spring-boot-soul-dubbo</module>
+        <module>spring-boot-soul-dubbo-service</module>
     </modules>
 
 
