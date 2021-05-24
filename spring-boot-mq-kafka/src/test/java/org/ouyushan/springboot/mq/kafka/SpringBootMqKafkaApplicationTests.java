@@ -17,7 +17,7 @@ class SpringBootMqKafkaApplicationTests {
 
     @Test
     public void testMQProducer(@Autowired MockMvc mockMvc) throws Exception {
-        mockMvc.perform(MockMvcRequestBuilders.get("/sendMsg?message=")
+        mockMvc.perform(MockMvcRequestBuilders.get("/sendMsg?message=kafka_content")
                 .accept(MediaType.APPLICATION_JSON))
                 .andExpect(status().isOk())
                 .andDo(print());
