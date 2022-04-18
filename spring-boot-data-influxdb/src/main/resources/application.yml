@@ -1,6 +1,6 @@
 spring:
   influx:
-    url: http://140.143.56.153:8086
+    url: http://localhost:8086
     user: root
     password: ouyushan
     database: test
@@ -14,7 +14,7 @@ management:
       influx:
         enabled: true
         db: ouyushan
-        uri: http://140.143.56.153:8086
+        uri: http://localhost:8086
         user: root
         password: ouyushan
         connect-timeout: 1s
